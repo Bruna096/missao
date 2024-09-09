@@ -6,41 +6,110 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "A energia solar é uma fonte de energia renovável e sustentável que é obtida apartir da luz do sol. Diante disso: ",
+        enunciado: " Você prefere as cores... ",
         alternativas: [
             {
-                texto: "Você investiria em energia solar?",
-                afirmacao: "Você é uma pessoa preocupada com o meio ambiente e pensa na economia ao longo prazo, bem como energia limpa e renovável."
+                texto: " Rosa ",
+                afirmacao: " Você é uma pessoa boiola. "
             },
             {
-                texto: "Você continua com a energia hidreelétrica?",
-                afirmacao: "Você é resistente a mudanças e prefere a praticidade da energia que conhece "
+                texto: "Azul",
+                afirmacao: " Você ainda é boiola. "
             }
         ]
     },
     {
-        enunciado: "Pensando em energia renovável e sustentável, e em recursos naturais inesgotáveis ",
+        enunciado: "Você prefere comer... ",
         alternativas: [
             {
-                texto: "Você pensa na energia solar como renovável e sustentável",
-                afirmacao: "Esta fonte aproveita a radiação solar ou o calor para gerar eletricidade, o que a torna uma alternativa limpa e sustentável às fontes de energia convencionais que emitem poluentes atmosféricos",
+                texto: " Macarrão com almondegas ",
+                afirmacao: " Você adora uma almondega. ",
             },
             {
-                texto: "Acredita que a energia hidreelétrica é uma energia renovável e sustentável",
-                afirmacao: " é uma energia renovável - ilimitada no tempo - porque são as suas fontes que se renovam, ou seja, rios e riachos alimentados pelo ciclo natural da água. "
+                texto: " Sushi ",
+                afirmacao: " Você não se importa com os peixinhos do procurando nemo. "
             }
         ]
     },
     {
-        enunciado: "Refletindo em vantagens  entre a energia solar e hidreelétrica ",
+        enunciado: "Você costuma ler? ",
         alternativas: [
             {
-                texto: "Acredita nos pontos positivos da energia solar",
-                afirmacao: "A energia solar não polui, é renovável, limpa e silenciosa, pode ser usada em áreas isoladas da rede elétrica, necessidade mínima de manutenção, muito fácil de instalar e é barato para manter"
+                texto: " Sim ",
+                afirmacao: " Você gosta de ler fanfics hots ",
             },
             {
-                texto: "Defende a ideia nas vantagens da energia hidreelétrica",
-                afirmacao: "As principais vantagens para promover a energia hidrelétrica é a alta produção de energia dos seus projetos, por meio das barragens, e na geração elétrica sustentável por meio de uma fonte renovável, que é a água. "
+                texto: " Não ",
+                afirmacao: " Você será analfabeto "
+            }
+        ]
+    },
+    {
+        enunciado: "Qual você prefere? ",
+        alternativas: [
+            {
+                texto: " Hello Kitty ",
+                afirmacao: " você é modinha, ",
+            },
+            {
+                texto: " Cinnamoroll ",
+                afirmacao: " temos mais uma prova de que você é gay. "
+            }
+        ]
+    },
+    {
+        enunciado: "Qual você escolheria",
+        alternativas: [
+            {
+                texto: " Mataria seu pior inimigo ",
+                afirmacao: " Você será preso por um assasinato. ",
+            },
+            {
+                texto: " Roubaria sua professora mais odiada ",
+                afirmacao: " Você será preso por assalto em flagrante. "
+            }
+        ]
+    },
+    {
+        enunciado: "Você tem medo de que?",
+        alternativas: [
+            {
+                texto: " Ver fantasmas ",
+                afirmacao: " Em 2028, você presenciou sua primeira aparição sobrenatural, ao buscar ajuda profissional, seu psicólogo te classificou como esquizofrênico.  ",
+            },
+            {
+                texto: " Ver uma situção chocante ",
+                afirmacao: " Você ficou traumatizadno em 2045 ao, após ver um seu amigo da escola, fugir do hospício por ser classificado como esquizofrênico e sair pelado correndo pela rua, falando sobre aparições fantasmagóricas. "
+            }
+        ]
+    },
+    {
+        enunciado: " Quem você gosta mais? ",
+        alternativas: [
+            {
+                texto: " Bruna ",
+                afirmacao: " Você e a Bruna continuaram amigas a vida toda. ",
+            },
+            {
+                texto: " Gabriela ",
+                afirmacao: " Você e a Gabriela continuaram amigas na vida toda."
+            },
+            {
+                texto: " Bianca ",
+                afirmacao: " Você e a Bianca continuaram amigas na vida toda."
+            }
+        ]
+    },
+    {
+        enunciado: "Você tem seus cadernos completos?",
+        alternativas: [
+            {
+                texto: "Sim",
+                afirmacao: "Você é muito estudioso"
+            },
+            {
+                texto: "Não",
+                afirmacao: "O Prof. Ricardo ficou triste por você não completar o caderno dele."
             }
         ]
     },

@@ -1,8 +1,8 @@
 :root{
-    --cor-fundo: #222 ;
-    --cor-principal: #200b1a ;
+    --cor-fundo: #5a94ca ;
+    --cor-principal: #5a94ca ;
     --cor-secundaria: #3d4688; 
-    --cor-destaque: #fd2ba9;
+    --cor-destaque: #000000;
     --cor-texto: #D7F9FF;
 
 }
@@ -22,6 +22,7 @@ body {
     max-width: 600px;
     text-align: center;
     padding: 20px;
+    display: block;
 }
 
 h1{
@@ -40,4 +41,9 @@ button {
 button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
+}
+
+.caixa-alternativas{
+    padding: 10%;
+    display: inline-flex;
 }
